@@ -6,6 +6,16 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import com.example.parkourchallenge.commands.CreateCommand;
+import com.example.parkourchallenge.commands.DeleteCommand;
+import com.example.parkourchallenge.commands.TntCommand;
+import com.example.parkourchallenge.commands.ChangeBlockCommand;
+import com.example.parkourchallenge.commands.EditCommand;
+import com.example.parkourchallenge.commands.SpeedCommand;
+import com.example.parkourchallenge.commands.ArrowRainCommand;
+import com.example.parkourchallenge.commands.RideCommand;
+
+
 public class ParkourCommandExecutor implements CommandExecutor {
     private final ParkourChallenge plugin;
 
